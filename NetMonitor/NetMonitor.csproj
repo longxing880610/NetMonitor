@@ -64,6 +64,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Code\Imp_NetCore.cs" />
+    <Compile Include="Code\MainWindow_Func.cs" />
+    <Compile Include="Code\MyNetException.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMonitor", "NetMonitor\NetMonitor.csproj", "{D17EB262-74AC-4B9F-BC9B-DCC8298FF84B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04} = {1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetCore", "NetCore\NetCore.vcxproj", "{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}"
 EndProject
