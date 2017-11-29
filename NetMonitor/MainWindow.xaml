@@ -1,0 +1,34 @@
+﻿<Window x:Class="NetMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NetMonitor"
+        mc:Ignorable="d"
+        Title="MainWindow">
+    <Grid>
+        <Menu x:Name="menu" RenderTransformOrigin="0.5,0.5" Height="25" VerticalAlignment="Top">
+            <Menu.ContextMenu>
+                <ContextMenu/>
+            </Menu.ContextMenu>
+            <MenuItem Header="MenuItem"/>
+            <MenuItem Header="MenuItem"/>
+            <MenuItem Header="MenuItem"/>
+        </Menu>
+        <TabControl x:Name="tabControl" SelectionChanged="tabControl_SelectionChanged" RenderTransformOrigin="0.492,0.485" Background="Black" Margin="0,25,0,39">
+            <TabItem Header="测试" MinWidth="60" Style="{DynamicResource TabItemStyle1}">
+                <Viewbox Stretch="Fill">
+                    <Grid Height="413" Width="754">
+                        <Button x:Name="button1" Content="Button" Margin="0,0,384,313"/>
+                        <Button x:Name="button2" Content="Button" Margin="384,0,0,313"/>
+                    </Grid>
+                </Viewbox>
+            </TabItem>
+            <TabItem Header="我的111" MinWidth="60"/>
+        </TabControl>
+        <StatusBar VerticalContentAlignment="Bottom" VerticalAlignment="Bottom" Height="34">
+            <StatusBarItem Content="就绪" Width="215" Margin="0,0,0,5"/>
+            <StatusBarItem Content="StatusBarItem" Height="34" VerticalAlignment="Top" Width="203"/>
+        </StatusBar>
+    </Grid>
+</Window>
