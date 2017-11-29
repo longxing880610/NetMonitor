@@ -21,6 +21,7 @@
                     <Grid Height="413" Width="754">
                         <Button x:Name="button1" Content="Button" Margin="0,0,384,313"/>
                         <Button x:Name="button2" Content="Button" Margin="384,0,0,313"/>
+                        <TextBox x:Name="textBox_Output" HorizontalAlignment="Left" Height="283" Margin="0,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="754"/>
                     </Grid>
                 </Viewbox>
             </TabItem>

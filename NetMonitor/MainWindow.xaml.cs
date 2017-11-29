@@ -23,6 +23,8 @@ namespace NetMonitor
         public MainWindow()
         {
             InitializeComponent();
+
+            Init();
         }
 
         private void tabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)

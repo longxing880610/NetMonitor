@@ -2,3 +2,5 @@ Debug/
 NetMonitor.VC.VC.opendb
 bin/
 obj/
+.vs/
+ipch/

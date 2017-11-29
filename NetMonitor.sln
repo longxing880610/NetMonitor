@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMonitor", "NetMonitor\NetMonitor.csproj", "{D17EB262-74AC-4B9F-BC9B-DCC8298FF84B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetCore", "NetCore\NetCore.vcxproj", "{28B87105-A449-4263-B21B-4514DB929DA8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetCore", "NetCore\NetCore.vcxproj", "{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,16 +29,16 @@ Global
 		{D17EB262-74AC-4B9F-BC9B-DCC8298FF84B}.Release|x64.Build.0 = Release|Any CPU
 		{D17EB262-74AC-4B9F-BC9B-DCC8298FF84B}.Release|x86.ActiveCfg = Release|Any CPU
 		{D17EB262-74AC-4B9F-BC9B-DCC8298FF84B}.Release|x86.Build.0 = Release|Any CPU
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Debug|x64.ActiveCfg = Debug|x64
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Debug|x64.Build.0 = Debug|x64
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Debug|x86.ActiveCfg = Debug|Win32
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Debug|x86.Build.0 = Debug|Win32
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Release|Any CPU.ActiveCfg = Release|Win32
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Release|x64.ActiveCfg = Release|x64
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Release|x64.Build.0 = Release|x64
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Release|x86.ActiveCfg = Release|Win32
-		{28B87105-A449-4263-B21B-4514DB929DA8}.Release|x86.Build.0 = Release|Win32
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Debug|x64.ActiveCfg = Debug|x64
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Debug|x64.Build.0 = Debug|x64
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Debug|x86.ActiveCfg = Debug|Win32
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Debug|x86.Build.0 = Debug|Win32
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Release|Any CPU.ActiveCfg = Release|Win32
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Release|x64.ActiveCfg = Release|x64
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Release|x64.Build.0 = Release|x64
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Release|x86.ActiveCfg = Release|Win32
+		{1F633B3E-0811-48BF-AE23-BEA4E5B4AC04}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
