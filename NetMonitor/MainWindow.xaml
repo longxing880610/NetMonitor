@@ -4,8 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NetMonitor"
-        mc:Ignorable="d"
-        Title="MainWindow">
+        mc:Ignorable="d" Title="{DynamicResource WinTitle}">
     <Grid>
         <Menu x:Name="menu" RenderTransformOrigin="0.5,0.5" Height="25" VerticalAlignment="Top">
             <Menu.ContextMenu>

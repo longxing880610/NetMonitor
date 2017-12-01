@@ -48,7 +48,7 @@ namespace NetMonitor
                         Thread.Sleep(waitTime);
                         timeOut -= waitTime;
                     }
-
+                    Console.WriteLine("UI_Access_Out:"+ timeOut);
                     return m_retObj;
                 }
             }
